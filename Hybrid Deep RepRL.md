@@ -12,6 +12,11 @@ To mitigate the issue, the architecture HDRepRL described in the paper <br>
      1. Deliberative High Level Planner
      2. Fast Learning Low level Deep Network
 
+## Result
+Evaluating the model on the Hybrid Taxi domain and the Craftworld domain, we get 
+1. The model prescribed performs better than the baseline DQN network
+2. The model also allows for better transfer learning than DQN
+
 ## Doubts and Questions
 Not educated enough about DBNs and PRMs to know why they are not used for the problem
 Would like to know more about latent predicates
