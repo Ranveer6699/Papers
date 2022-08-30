@@ -11,3 +11,7 @@ To mitigate the issue, the architecture HDRepRL described in the paper <br>
   2. Makes use of a Neuro Symbolic Architecture which 
      1. Deliberative High Level Planner
      2. Fast Learning Low level Deep Network
+
+## Doubts and Questions
+Not educated enough about DBNs and PRMs to know why they are not used for the problem
+Would like to know more about latent predicates
