@@ -5,3 +5,5 @@ assumption, which requires that each instance is described in a single row by a 
 and all instances are independent of one another (given the model)."
 <br>
 I understand how these apply to classification methods such as regression and SVMs, but I am not sure why it also applies to Bayesian Networks
+<br>
+Some clarification on HErbrand clauses would be appreciated
