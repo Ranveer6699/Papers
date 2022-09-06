@@ -7,3 +7,6 @@ and all instances are independent of one another (given the model)."
 I understand how these apply to classification methods such as regression and SVMs, but I am not sure why it also applies to Bayesian Networks
 <br>
 Some clarification on HErbrand clauses would be appreciated
+
+
+I have clarified for the most part. More reading would also help
