@@ -11,3 +11,7 @@ https://github.com/Ranveer6699/Papers_Read/blob/main/Hybrid%20Deep%20RepRL.md
 1. Integrating Human Instructions and Reinforcement Learners : An
 SRL Approach <br>
 https://starling.utdallas.edu/assets/pdfs/HIRL_StarAI12.pdf
+
+3. StarAI Book 
+Chapter 1 and 2
+
