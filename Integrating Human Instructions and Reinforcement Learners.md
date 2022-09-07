@@ -36,7 +36,7 @@ The model allows for the use of more natural language type instructions when ins
 
 # Negative Points
 Some of the biggest isses and limitations regarding the current model are
-1. The use of maximization of the confidence interval doesn't feel like the best method to select among the actions. It may be better to use a weighted sum to learn a better policy
+1. The use of maximization of the confidence interval doesn't feel like the best method to select among the actions. It may be better to use a weighted sum to learn a better policy <br>
   Without evidence, this may be the reason why the current instruction denoted actions are chosen less as compared to other actions as the number of episodes increase
 2. The current instructions are limited to pointing instructions and do not allow for more complex advice like _Pickup the ball and drop it in the basket_
 3. There seems to be inconsitencies with the predicates in the paper which limits comprehension.
