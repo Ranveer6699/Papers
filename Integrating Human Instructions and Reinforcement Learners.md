@@ -14,13 +14,18 @@ The model learning is done using Q-learning with options (modelled as SMDP) to a
 Instuctions are defined as <br>
 _inviolate external inputs to the RL agent which affect its decision making or direct its exploration or alter its belief on a policy._
 <br>
-There are two types of instructions that we are mostly concerned about
-1. $\pi$
+There are two types of instruction interpretations considered by the model at the same time. If we point at _Object 3_
+1. $\pi$ Instructions: Instructions like _Goto Object 3_. These instructions affect the action taken by the agent directly
+2. $\phi$ Instructions: These instructions reduce the state space considered by the model by ignoring all states not concerning object 3
 
+### Algorithm Built 
+Quoting directly from the paper:- 
+1. _The algorithm is split into two phases. During the training phase, the learner accumulates instructions, if available, to be used later to train an instruction model. This model is used to select actions in the post-training phase._
+2. _Models ˆΠπ and ˆ ΠΦ are learned using the training sets. Learning these models requires us to represent the probabilistic dependencies among attributes of the related objects. We use Markov Logic Networks (MLN) to perform the generalization as they can succinctly represent these dependencies resulting in sample-efficient learning and inferring._
 
 
 # Positive Points
-
+The model allows for the use of more natural language type instructions when instructing the agent. Since the agent uses multiple interpretations of the instruction allows for more efficient learning.
 
 # Negative Points
 Some of the biggest isses and limitations regarding the current model are
