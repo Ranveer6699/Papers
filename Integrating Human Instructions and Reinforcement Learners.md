@@ -14,6 +14,8 @@ The model learning is done using Q-learning with options (modelled as SMDP) to a
 Instuctions are defined as <br>
 _inviolate external inputs to the RL agent which affect its decision making or direct its exploration or alter its belief on a policy._
 <br>
+There are two types of instructions that we are mostly concerned about
+1. $\pi$
 
 
 
