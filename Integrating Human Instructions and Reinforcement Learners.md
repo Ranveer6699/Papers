@@ -27,8 +27,9 @@ Quoting directly from the paper:-
 1. The instruction framework generalizes well unlike Simple SMDP Q-learning
 2. As the number of episodes increase, the increase in confidence level results in better performance of the instructions framework.
 3. As the training proceeds, the control shifts from the instructions framework to the Q-learner due to increasing estimates.
-4. The relative performance of $\pi$ and $\phi$ instructions is domain dependent
-5. The current confidence performance measure is naive and doesn't well capture the relative performance of the models
+4. The relative performance of $\pi$ and $\phi$ instructions is domain dependent (Claim). 
+5. For the sorter domain, the $\pi$ instructions work better than $\phi$ instructions but the $\phi$ instructions are selected more than $\pi$ instructions.
+6. The current confidence performance measure is naive and doesn't well capture the relative performance of the models
 
 
 # Positive Points
