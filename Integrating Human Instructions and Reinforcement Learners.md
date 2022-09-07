@@ -1,7 +1,6 @@
 # Summary
 
 ## Introduction
-$\sum_{i=1}^n$
 The paper mainly talks about the use of Statistical Relational Learning to allow for more natural language instructions for teaching an agent. Instead of providing tne agent with concise instructions, the agent makes out the meaning of instructions iteself.
 
 ## Model 
