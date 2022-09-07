@@ -7,7 +7,7 @@ The paper mainly talks about the use of Statistical Relational Learning to allow
 ### Domain
 The approach is used on the Sorter domain which involves putting collected objects in the correctly colored boxes. The state space for the sorter domain encapsulates the color of the boxes and baskets, the fact whether an agent is carrying a particular object, and if the object is already in the basket.
 
-###Learning
+### Learning
 The model learning is done using Q-learning with options (modelled as SMDP) to allow the model to accomodate the stochasity in learning the actions and to learn the acions in a continous state space by discrtetizing the actions
 
 ## Instructions
