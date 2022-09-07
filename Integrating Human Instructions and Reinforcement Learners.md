@@ -18,10 +18,17 @@ There are two types of instruction interpretations considered by the model at th
 1. $\pi$ Instructions: Instructions like _Goto Object 3_. These instructions affect the action taken by the agent directly
 2. $\phi$ Instructions: These instructions reduce the state space considered by the model by ignoring all states not concerning object 3
 
-### Algorithm Built 
+## Algorithm Built 
 Quoting directly from the paper:- 
 1. _The algorithm is split into two phases. During the training phase, the learner accumulates instructions, if available, to be used later to train an instruction model. This model is used to select actions in the post-training phase._
 2. _Models ˆΠπ and ˆ ΠΦ are learned using the training sets. Learning these models requires us to represent the probabilistic dependencies among attributes of the related objects. We use Markov Logic Networks (MLN) to perform the generalization as they can succinctly represent these dependencies resulting in sample-efficient learning and inferring._
+
+## Results and Conclusions
+1. The instruction framework generalizes well unlike Simple SMDP Q-learning
+2. As the number of episodes increase, the increase in confidence level results in better performance of the instructions framework.
+3. As the training proceeds, the control shifts from the instructions framework to the Q-learner due to increasing estimates.
+4. The relative performance of $\pi$ and $\phi$ instructions is domain dependent
+5. The current confidence performance measure is naive and doesn't well capture the relative performance of the models
 
 
 # Positive Points
