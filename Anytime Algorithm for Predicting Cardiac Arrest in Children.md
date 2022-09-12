@@ -6,4 +6,13 @@ The data collected for the model consists of EHR from 48 hours to the hour of ca
 The model is compared to the ones where the regression trees are learned from scratch at each stage. the model which uses concatenation performs better than the ones trained from scratch from all the data collected so far. The authors theorize that the better result may be because data collected only few hours before the cardiac arrest may be more relevant to the data on hand.
 
 # Positive Points
-1. The model described in the paper is much more data efficient that
+1. The model described in the paper is much more data efficient than typical neural networks
+2. The lack of hyperparameters makes it easy to tune the model when compared to parameterized models
+3. The model, with its use of predicate logic, forgoes the need for missing data
+
+# Negative Points
+1. Since Cardiac Arrest can be life thereatening, a cost matrix which heavily penalizes a false negative should have been used.
+
+# Extensions
+1. To extract the causal graphs from the regression trees created for any possible dependencies between vitals and risk of CA.
+2. It might be possible to use logical implementations of other sequential learning methods like LSTMs to better learen the data
