@@ -11,4 +11,8 @@ concatenated to our current trees at each interval. The predicates added to the 
 variance. 
 
 The model is compared to ones where the regression tress are learned from scratch at each stage. the model learnt using concatenation
-performs bettwe than the ones 
+performs bettwe than the ones trained from scratch from all the data collected so far. The authors theorize that the better result
+may be due to the fact that data coolected only few hours before the cardiac arrest may be more relevant to the data on hand.
+
+# Positive Points
+1. The model described in the paper is much more data efficient that
