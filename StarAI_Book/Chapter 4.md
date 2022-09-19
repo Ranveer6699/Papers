@@ -4,4 +4,5 @@ Directed models are problematic if we have cyclic relationship between probabili
 
 Page 49: What do least Herbrant model semantics mean?
 
-Page 50: What does it mean for rules to have Mutually exclusive bodies? Moreover, I am not sure on how Directed Relational Models not be represented as MLN's
+Page 50: What does it mean for rules to have Mutually exclusive bodies? Moreover, I am not sure on how Directed Relational Models not be represented as MLN's.
+More clarity on section 4.3 would be appreciated.
