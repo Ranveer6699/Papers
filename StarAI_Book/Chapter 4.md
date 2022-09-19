@@ -8,3 +8,5 @@ Page 50: What does it mean for rules to have Mutually exclusive bodies? Moreover
 More clarity on section 4.3 would be appreciated.
 
 Page 53: Difference between Independent Choice and Markov Logic Networks. I do understtand this somewhat but any further clarification is appreciated
+
+Page 54: Differnce between Naive Bayes and Markov Networks 
