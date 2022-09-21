@@ -13,6 +13,9 @@ https://starling.utdallas.edu/assets/pdfs/AIME2022_skinner.pdf
 3. A Probabilistic Approach to Extract Qualitative Knowledge for Early Prediction of Gestational Diabetes. <br>
 https://starling.utdallas.edu/assets/pdfs/KaranamHayes_AIME2021.pdf
 
+4. Top Down Induction of First Order Decision Trees <br>
+https://reader.elsevier.com/reader/sd/pii/S0004370298000344?token=2CE5EBDB034656966439141390542AA4DBB13561CF1D205DE7F4D803211BC64E31274CF63FDC2F7A5A10903997211C27&originRegion=us-east-1&originCreation=20220921011527
+
 ## Reading Group
 1. Integrating Human Instructions and Reinforcement Learners : An
 SRL Approach <br>
